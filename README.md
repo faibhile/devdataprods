@@ -1,7 +1,7 @@
 # devdataprods project
 
 
-An attempt to amend the lecture code to calculate the length of the hypotenuse of a right angled triangle given the lengths of the adjacent and opposite.
+An attempt to amend the lecture code to calculate the length of the hypotenuse (of a right angled triangle) given the lengths of the adjacent and opposite.
 
 
 ```{r}
