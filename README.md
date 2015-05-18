@@ -15,11 +15,14 @@ shinyServer(
                 })
         }
 )
+````
 
 
 
 
 
+
+```{r}
 shinyUI(pageWithSidebar(
         headerPanel("Hello Shiny!"),
         sidebarPanel(
@@ -36,7 +39,5 @@ shinyUI(pageWithSidebar(
                 textOutput('text3')
         )
 ))
-
-
 
 ```
