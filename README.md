@@ -4,7 +4,7 @@
 
 
 
-```{r global_options, include = FALSE}
+```{r}
 shinyServer(
         function(input, output) {
                 output$Adjacent <- renderText({input$Adjacent})
