@@ -10,12 +10,13 @@ shinyServer(
         function(input, output) {
                 output$Adjacent <- renderText({input$Adjacent})
                 output$Opposite <- renderText({input$Opposite})
-                output$text3 <- renderText({
+                output$Hypotenuse <- renderText({
                         input$goButton
                         isolate(paste(input$Adjacent, input$Opposite))
                 })
         }
 )
+
 ````
 
 
