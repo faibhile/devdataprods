@@ -30,7 +30,7 @@ shinyUI(pageWithSidebar(
         sidebarPanel(
                 textInput(inputId="Adjacent", label = "Length Adjacent"),
                 textInput(inputId="Opposite", label = "Length Opposite"),
-                actionButton("goButton", "Go!")
+                actionButton("goButton", "Calculate!")
         ),
         mainPanel(
                 p('Output Adjacent'),
