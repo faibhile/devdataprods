@@ -2,6 +2,7 @@
 
 
 An attempt to amend the lecture code to calculate the length of the hypotenuse (of a right angled triangle) given the lengths of the adjacent and opposite.
+Hypotenuse = (Adjacent^2 + Opposite^2)^0.5 
 
 
 ```{r}
