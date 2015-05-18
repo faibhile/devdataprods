@@ -1,6 +1,10 @@
 # devdataprods project
 
 
+
+
+
+'''r
 shinyServer(
         function(input, output) {
                 output$Adjacent <- renderText({input$Adjacent})
