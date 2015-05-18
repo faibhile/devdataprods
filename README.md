@@ -4,7 +4,7 @@
 
 
 
-'''r
+```{r global_options, include = FALSE}
 shinyServer(
         function(input, output) {
                 output$Adjacent <- renderText({input$Adjacent})
@@ -39,4 +39,4 @@ shinyUI(pageWithSidebar(
 
 
 
-
+```
