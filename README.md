@@ -25,7 +25,7 @@ shinyServer(
 
 ```{r}
 shinyUI(pageWithSidebar(
-        headerPanel("Hello Shiny!"),
+        headerPanel("Shiny triangle!"),
         sidebarPanel(
                 textInput(inputId="Adjacent", label = "Length Adjacent"),
                 textInput(inputId="Opposite", label = "Length Opposite"),
@@ -36,9 +36,10 @@ shinyUI(pageWithSidebar(
                 textOutput('Adjacent'),
                 p('Output Opposite'),
                 textOutput('Opposite'),
-                p('Output text3'),
-                textOutput('text3')
+                p('Output Hypotenuse'),
+                textOutput('Hypotenuse')
         )
 ))
+
 
 ```
