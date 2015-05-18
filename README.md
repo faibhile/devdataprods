@@ -1,7 +1,7 @@
 # devdataprods project
 
 
-
+An attempt to amend the lecture code to calculate the length of the hypotenuse given the lengths of the adjacent and opposite.
 
 
 ```{r}
